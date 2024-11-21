@@ -1,8 +1,10 @@
-### Decrease Ping on Roblox (PC)
+<h3>Decrease Ping on Roblox (PC)</h3>
 
-1. Go to `Device Manager > Network adapters > Your Network Controller > Power Management` and turn everything off.
-2. Go to the `Advanced` tab and copy the following settings to the best of your ability:
-```
+<ol>
+<li>Go to <code>Device Manager > Network adapters > Your Network Controller > Power Management</code> and turn everything off.</li>
+<li>Go to the <code>Advanced</code> tab and copy the following settings to the best of your ability:</li>
+<br>
+<pre>
 D = Disabled
 E = Enabled
 
@@ -36,13 +38,14 @@ VLAN ID: 0
 Wake on Magic Packet: D
 Wake on pattern match: D
 WOL & Shutdown Link Speed: Not Speed Down
-```
-###### If anything says that "the number is too high" or the numbers listed are too high, just pick the largest number possible in the settings.
+</pre>
+<h6>If anything says that "the number is too high" or the numbers listed are too high, just pick the largest number possible in the settings.</h6>
 
-3. Download and install [Bloxstap](https://bloxstraplabs.com/).
-4. Go to `Bloxstrap > Engine Settings > Fast Flag Editor` and click `Add new`.
-5. In the `Add Fast Flag` menu, click `Import JSON` and import the following data:
-```json
+<li>Download and install <a href="https://bloxstraplabs.com/">Bloxstrap</a>.</li>
+<li>Go to <code>Bloxstrap > Engine Settings > Fast Flag Editor</code> and click <code>Add new</code>.</li>
+<li>In the <code>Add Fast Flag</code> menu, click <code>Import JSON</code> and import the following data:</li>
+<br>
+<pre>
 {
   "FFlagDebugDisableTelemetryEphemeralCounter": "True",
   "FIntRakNetResendBufferArrayLength": "128",
@@ -76,13 +79,14 @@ WOL & Shutdown Link Speed: Not Speed Down
   "FLogNetwork": "7",
   "FFlagHandleAltEnterFullscreenManually": "False"
 }
-```
+</pre>
 
-6. Click `Save` and close Bloxstrap.
-7. Go to `Windows Defender Firewall with Advanced Security > Inbound Rules`.
-8. Right-click `Inbound Rules` and click `New Rule...`.
-9. Select the following options:
-```
+<li>Click <code>Save</code> and close Bloxstrap.</li>
+<li>Go to <code>Windows Defender Firewall with Advanced Security > Inbound Rules</code>.</li>
+<li>Right-click <code>Inbound Rules</code> and click <code>New Rule...</code>.</li>
+<li>Select the following options:</li>
+<br>
+<pre>
 What type of rule would you like to create?
 Port
 
@@ -102,8 +106,9 @@ Public
 
 Name:
 Roblox UDP Ports
-```
+</pre>
 
-10. Enjoy your low ping!
+<li>Enjoy your low ping!</li>
+</ol>
 
-If you have any questions, feel free to ask me.
+<p>If you have any questions, feel free to ask me.</p>

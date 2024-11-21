@@ -80,7 +80,8 @@ WOL & Shutdown Link Speed: Not Speed Down
   "FFlagHandleAltEnterFullscreenManually": "False"
 }
 </pre>
-
+<li>Click <code>Back</code> and go to the <code>Integrations</code> tab.</li>
+<li>Enable <code>Query server location</code> and find the closest Roblox server to you <a href="https://devforum.roblox.com/t/roblox-server-region-a-list-of-roblox-ip-ranges-and-its-location-so-you-dont-need-to-use-outdatedbrokenexpensive-apis/3094401">here</a>.</li>
 <li>Click <code>Save</code> and close Bloxstrap.</li>
 <li>Go to <code>Windows Defender Firewall with Advanced Security > Inbound Rules</code>.</li>
 <li>Right-click <code>Inbound Rules</code> and click <code>New Rule...</code>.</li>
@@ -108,6 +109,7 @@ Name:
 Roblox UDP Ports
 </pre>
 
+<li>Now whenever you join a Roblox game, you should receive a notification for where it's located. Keep rejoining until you are connected to your closest Roblox server.</li>
 <li>Enjoy your low ping!</li>
 </ol>
 

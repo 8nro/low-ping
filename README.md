@@ -81,7 +81,7 @@ WOL & Shutdown Link Speed: Not Speed Down
 }
 </pre>
 <li>Click <code>Back</code> and go to the <code>Integrations</code> tab.</li>
-<li>Enable <code>Query server location</code> and find the closest Roblox server to you <a href="https://devforum.roblox.com/t/roblox-server-region-a-list-of-roblox-ip-ranges-and-its-location-so-you-dont-need-to-use-outdatedbrokenexpensive-apis/3094401">here</a>.</li>
+<li>Enable <code>Query server location</code> and find the closest Roblox server to your location on <a href="https://devforum.roblox.com/t/roblox-server-region-a-list-of-roblox-ip-ranges-and-its-location-so-you-dont-need-to-use-outdatedbrokenexpensive-apis/3094401">this webpage</a>.</li>
 <li>Click <code>Save</code> and close Bloxstrap.</li>
 <li>Go to <code>Windows Defender Firewall with Advanced Security > Inbound Rules</code>.</li>
 <li>Right-click <code>Inbound Rules</code> and click <code>New Rule...</code>.</li>

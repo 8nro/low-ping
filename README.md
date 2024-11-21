@@ -1,4 +1,4 @@
-# Decrease Ping on Roblox (PC)
+### Decrease Ping on Roblox (PC)
 
 1. Go to `Device Manager > Network adapters > Your Network Controller > Power Management` and turn everything off.
 2. Go to the `Advanced` tab and copy the following settings to the best of your ability:

@@ -39,7 +39,7 @@ Wake on Magic Packet: D
 Wake on pattern match: D
 WOL & Shutdown Link Speed: Not Speed Down
 </pre>
-<h6>If anything says that "the number is too high" or the numbers listed are too high, just pick the largest number possible in the settings.</h6>
+<h6>If any setting says that the number you inputted from the list was too high, just pick the largest number possible in the settings.</h6>
 
 <li>Download and install <a href="https://bloxstraplabs.com/">Bloxstrap</a>.</li>
 <li>Go to <code>Bloxstrap > Engine Settings > Fast Flag Editor</code> and click <code>Add new</code>.</li>

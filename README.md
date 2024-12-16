@@ -6,7 +6,6 @@
 <br>
 <pre>
 D = Disabled
-E = Enabled
 
 Advanced EEE: D
 ARP Offload: D

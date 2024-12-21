@@ -75,9 +75,17 @@ WOL & Shutdown Link Speed: Not Speed Down
   "FFlagDebugGraphicsDisableVulkan11": "True",
   "FFlagDebugGraphicsDisableOpenGL": "True",
   "FLogNetwork": "7",
-  "FFlagHandleAltEnterFullscreenManually": "False"
+  "FFlagHandleAltEnterFullscreenManually": "False",<br>
+  "DFIntPhysicsReceiveNumParallelTasks": "NUMBER_OF_LOGICAL_PROCESSORS",
+  "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "NUMBER_OF_LOGICAL_PROCESSORS",
+  "FIntSimWorldTaskQueueParallelTasks": "NUMBER_OF_LOGICAL_PROCESSORS",
+  "FIntSmoothClusterTaskQueueMaxParallelTasks": "NUMBER_OF_LOGICAL_PROCESSORS",
+  "DFIntReplicationDataCacheNumParallelTasks": "NUMBER_OF_LOGICAL_PROCESSORS",
+  "DFIntMegaReplicatorNumParallelTasks": "NUMBER_OF_LOGICAL_PROCESSORS"
 }
 </pre>
+<h6>Replace <code>NUMBER_OF_LOGICAL_PROCESSORS</code> with the number of logical procerssors in your CPU.<br>This can be found at <code>Task Manager > Performance > CPU > Logical Processors</code></h6>
+
 <li>Click <code>Back</code> and go to the <code>Integrations</code> tab.</li>
 <li>Enable <code>Query server location</code> and find the closest Roblox server to your location on <a href="https://devforum.roblox.com/t/roblox-server-region-a-list-of-roblox-ip-ranges-and-its-location-so-you-dont-need-to-use-outdatedbrokenexpensive-apis/3094401">this webpage</a>.</li>
 <li>Click <code>Save</code> and close Bloxstrap.</li>

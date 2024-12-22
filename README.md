@@ -72,9 +72,7 @@ WOL & Shutdown Link Speed: Not Speed Down
   "FFlagNewLightAttenuation": "True",
   "DFIntClientLightingTechnologyChangedTelemetryHundredthsPercent": "0",
   "FFlagDebugGraphicsDisableVulkan11": "True",
-  "FFlagDebugGraphicsDisableOpenGL": "True",
-  "FLogNetwork": "7",
-  "FFlagHandleAltEnterFullscreenManually": "False",<br>
+  "FFlagDebugGraphicsDisableOpenGL": "True",<br>
   "DFIntPhysicsReceiveNumParallelTasks": "NUMBER_OF_LOGICAL_PROCESSORS",
   "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "NUMBER_OF_LOGICAL_PROCESSORS",
   "FIntSimWorldTaskQueueParallelTasks": "NUMBER_OF_LOGICAL_PROCESSORS",

@@ -65,7 +65,6 @@ WOL & Shutdown Link Speed: Not Speed Down
   "FFlagDebugDisableTelemetryV2Counter": "True",
   "FFlagDebugDisableTelemetryV2Event": "True",
   "FFlagDebugDisableTelemetryV2Stat": "True",
-  "FIntFullscreenTitleBarTriggerDelayMillis": "18000000",
   "FFlagDebugGraphicsDisableVulkan": "True",
   "DFIntMaxFrameBufferSize": "4",
   "FFlagDisablePostFx": "True",

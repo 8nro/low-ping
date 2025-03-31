@@ -5,37 +5,35 @@
 <li>Go to the <code>Advanced</code> tab and copy the following settings to the best of your ability:</li>
 <br>
 <pre>
-D = Disabled
-
-Advanced EEE: D
-ARP Offload: D
+Advanced EEE: Disabled
+ARP Offload: Disabled
 EEE Max Support Speed: 2.5Gbps Full Duplex
-Energy-Efficient Ethernet: D
-Flow Control: D
-Gigabit Lite: D
-Green Ethernet: D
-Interrupt Moderation: D
-IPv4 Checksum Offload: D
+Energy-Efficient Ethernet: Disabled
+Flow Control: Disabled
+Gigabit Lite: Disabled
+Green Ethernet: Disabled
+Interrupt Moderation: Disabled
+IPv4 Checksum Offload: Disabled
 Jumbo Frame: 16128 Bytes
-Large Send Offload v2 (IPv4): D
-Large Send Offload v2 (IPv6): D
-Maximum Number of RSS Queues: D
+Large Send Offload v2 (IPv4): Disabled
+Large Send Offload v2 (IPv6): Disabled
+Maximum Number of RSS Queues: Disabled
 Network Address: Not Present
-NS Offload: D
-Power Saving Mode: D
+NS Offload: Disabled
+Power Saving Mode: Disabled
 Priority & VLAN: Priority & VLAN Enabled
 Receive Buffers: 4096
-Receive Side Scaling: D
-Shutdown Wake-On-Lan: D
+Receive Side Scaling: Disabled
+Shutdown Wake-On-Lan: Disabled
 Speed & Duplex: 2.5 Gbps Full Duplex
-TCP Checksum Offload (IPv4): D
-TCP Checksum Offload (IPv6): D
+TCP Checksum Offload (IPv4): Disabled
+TCP Checksum Offload (IPv6): Disabled
 Transmit Buffers: 4096
-UDP Checksum Offload (IPv4): D
-UDP Checksum Offload (IPv6): D
+UDP Checksum Offload (IPv4): Disabled
+UDP Checksum Offload (IPv6): Disabled
 VLAN ID: 0
-Wake on Magic Packet: D
-Wake on pattern match: D
+Wake on Magic Packet: Disabled
+Wake on pattern match: Disabled
 WOL & Shutdown Link Speed: Not Speed Down
 </pre>
 <h6>If any setting says that the number you inputted from the list was too high, just pick the largest number possible in the settings.</h6>
